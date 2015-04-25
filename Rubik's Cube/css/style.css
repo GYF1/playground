@@ -1,0 +1,87 @@
+html, body {
+	height: 100%;
+	margin: 0px;
+}
+
+body {
+	/*background-color: #777;*/
+	background-color: #fff;
+	/*color: white;*/
+	/*text-shadow: 0px 1px 1px black;*/
+	text-align: center;
+	font-family: sans-serif;
+
+	/*added by steven*/
+	font: 12px arial;
+
+}
+
+h1 {
+	text-align: center;
+	margin-top: 0px;
+	padding-top: 1em;
+}
+
+/*footer {*/
+	/*position: fixed;*/
+	/*text-align: center;*/
+	/*width: 100%;*/
+	/*left: 0px;*/
+	/*bottom: 3px;*/
+	/*font-size: 90%;*/
+/*}*/
+
+a {
+	/*color: white;*/
+}
+
+.face {
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+
+
+
+/*header menu*/
+#u1 {
+	z-index: 2;
+	color: white;
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin: 19px 0 5px 0;
+	padding: 0 96px 0 0;
+}
+
+#u1 a.mnav, #u1 a.mnav:visited {
+	float: left;
+	color: #333;
+	font-weight: bold;
+	line-height: 24px;
+	margin-left: 20px;
+	font-size: 13px;
+	text-decoration: underline;
+}
+
+#ftCon {
+	height: 50px;
+	position: absolute;
+	/*bottom: 44px;*/
+	bottom: 10px;
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+	z-index: 0;
+	overflow: hidden;
+}
+#ftConw {
+	width: 720px;
+	margin: 0 auto;
+}
+
+#cp, #cp a {
+	color: #666;
+}
+
+
